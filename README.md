@@ -1,55 +1,56 @@
 # Pain Diary App
 
-A mobile application built with **Ionic** and **Angular** to help users record pain levels, medications, and treatment-related information. This project was developed as part of my frontend and mobile development portfolio, with a focus on healthcare-oriented user experiences.
+A mobile application built with **Ionic** and **Angular** to help users record pain levels, medications, and treatment-related information. This project was developed as part of my frontend and mobile development portfolio, with a focus on healthcare-oriented user experience and clear symptom tracking.
 
 ## Overview
 
-Pain Diary App is designed to provide a simple and structured way for users to monitor their symptoms over time. The application combines a clean mobile interface with practical tracking features that support personal pain management and health awareness.
+Pain Diary App provides a simple way for users to monitor daily pain intensity, register medications, and review symptom history over time. The project was designed as a health-focused mobile interface prototype that combines usability, structured data entry, and accessible navigation.
 
-## Features
+## Key Features
 
 - **User Login**  
   Simple username-based access to personalize the app experience.
 
 - **Home Dashboard**  
-  Displays a welcome message, the current date, and the latest pain record.
+  Displays a welcome message, current date, and the latest pain record.
 
 - **Pain Diary**  
-  Allows users to log daily pain levels, medications, and notes, while also reviewing previous entries.
+  Allows users to log daily pain levels, medications, and notes.
 
 - **Profile Section**  
-  Shows user information together with a structured summary of pain history.
+  Shows user information and a summary of historical pain records.
 
 - **Medical Information**  
-  Includes educational content about pain, treatment, and symptom management.
+  Provides educational content related to pain management and treatment.
 
-- **Responsive Mobile Design**  
-  Built to work smoothly on mobile devices using Ionic components and Angular structure.
+- **Responsive Design**  
+  Optimized for mobile devices using Ionic components and Angular architecture.
 
 ## Screenshots
 
-![Login Screen](src/assets/screenshots/login.png)
-*Login screen for personalized access.*
+| Login | Home |
+|---|---|
+| <img src="src/assets/screenshots/login.png" width="260"/> | <img src="src/assets/screenshots/home.png" width="260"/> |
 
-![Home Dashboard](src/assets/screenshots/home.png)
-*Main dashboard with current date and latest pain entry.*
+| Pain Diary | Profile |
+|---|---|
+| <img src="src/assets/screenshots/diary.png" width="260"/> | <img src="src/assets/screenshots/profile.png" width="260"/> |
 
-![Pain Diary](src/assets/screenshots/diary.png)
-*Diary view to register and review pain records.*
+<p align="center">
+  <img src="src/assets/screenshots/info1.png" width="30%" />
+  <img src="src/assets/screenshots/info2.png" width="30%" />
+  <img src="src/assets/screenshots/info3.png" width="30%" />
+</p>
 
-![Profile](src/assets/screenshots/profile.png)
-*Profile section with personal data and history overview.*
-
-![Medical Info](src/assets/screenshots/info1.png)
-*Educational section with pain management information.*
+<p align="center"><em>Medical information section with educational pain management content.</em></p>
 
 ## Tech Stack
 
-- **Ionic**
-- **Angular**
-- **TypeScript**
-- **HTML**
-- **SCSS**
+- Ionic
+- Angular
+- TypeScript
+- HTML
+- SCSS
 
 ## Installation
 
@@ -79,7 +80,7 @@ ionic serve
 
 ## Usage
 
-After launching the app locally, users can log in, navigate through the dashboard, create pain entries, review previous records, and explore the medical information section. The application is intended as a frontend prototype that demonstrates mobile UI structure, routing, and user-centered design for a health-related context.
+After launching the app locally, users can log in, navigate through the dashboard, create pain entries, review previous records, and explore the medical information section. The application serves as a frontend prototype demonstrating mobile UI design, routing, and structured health-data input.
 
 ## Project Structure
 
@@ -90,14 +91,15 @@ src/
   environments/
 ```
 
-## Purpose
+## Learning Goals
 
-This project was created to strengthen my skills in:
-- mobile application development with Ionic and Angular
-- responsive interface design
-- frontend architecture and routing
-- healthcare-focused application design
+This project was created to strengthen practical skills in:
 
-## Notes
+- Mobile application development with Ionic and Angular
+- Responsive interface design
+- Frontend architecture and routing
+- Healthcare-focused application design
 
-This repository represents a portfolio project and learning exercise. It is not intended to replace professional medical advice, diagnosis, or treatment.
+## Disclaimer
+
+This repository represents a portfolio and learning project. It is not intended to replace professional medical advice, diagnosis, or treatment.
