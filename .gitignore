@@ -1,4 +1,18 @@
+# Node modules
 node_modules/
+
+# Ionic / Angular build output
 www/
+dist/
+out-tsc/
+
+# Environment files
 .env
+
+# Sistema operativo
 .DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
