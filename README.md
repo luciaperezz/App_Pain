@@ -30,7 +30,10 @@ Pain Diary App provides a simple way for users to monitor daily pain intensity, 
 
 | Login | Home | Pain Diary | Profile |
 |---|---|---|---|
-| <img src="src/assets/screenshots/login.png" width="260"/> | <img src="src/assets/screenshots/home.png" width="260"/> | <img src="src/assets/screenshots/diary.png" width="260"/> |<img src="src/assets/screenshots/profile.png" width="260"/> |
+| <img src="src/assets/screenshots/login.png" width="260"/> | <img src="src/assets/screenshots/home.png" width="260"/> 
+| Pain Diary | Profile |
+|---|---|
+| <img src="src/assets/screenshots/diary.png" width="260"/> |<img src="src/assets/screenshots/profile.png" width="260"/> |
 
 | Medical information | Medical information |  Medical information |
 |---|---|---|
