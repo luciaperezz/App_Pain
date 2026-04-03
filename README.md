@@ -28,8 +28,6 @@ Pain Diary App is designed to provide a simple and structured way for users to m
 
 ## Screenshots
 
-> Add your screenshots inside `assets/screenshots/` so they display correctly on GitHub.
-
 ![Login Screen](assets/screenshots/login.png)
 *Login screen for personalized access.*
 
