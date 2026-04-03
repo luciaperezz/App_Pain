@@ -5,6 +5,7 @@ node_modules/
 www/
 dist/
 out-tsc/
+.angular/
 
 # Environment files
 .env
