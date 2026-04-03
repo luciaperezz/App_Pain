@@ -1,0 +1,94 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Información Médica</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home" text="Volver"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-img src="assets/imagenes/infosalud.svg" style="padding: 5px;"></ion-img>
+
+  <div style="padding: 15px; text-align: center;">
+    <h2>Bienvenido</h2>
+    <p>En esta sección encontrarás información médica sobre el dolor.</p>
+  </div>
+
+  <!-- Qué es el dolor -->
+  <ion-card style="border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.15); margin-bottom:15px;">
+    <ion-card-header>
+      <ion-card-title>¿De qué manera se puede describir el dolor?</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>El dolor oncológico se puede clasificar según intensidad, duración o características.</p>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Intensidad -->
+  <ion-card style="border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.15); margin-bottom:15px;">
+    <ion-card-header>
+      <ion-card-title>Intensidad del dolor</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Se mide mediante la Escala Visual Analógica (EVA): línea horizontal de 0 a 10.</p>
+      <ion-img src="assets/imagenes/escala-eva.png" style="margin:10px 0;"></ion-img>
+      <ul>
+        <li>Leve: EVA 0-3</li>
+        <li>Moderado: EVA 4-6</li>
+        <li>Intenso: EVA 7-10</li>
+        <li>Muy intenso: EVA >10</li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Duración -->
+  <ion-card style="border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.15); margin-bottom:15px;">
+    <ion-card-header>
+      <ion-card-title>Duración del dolor</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ul>
+        <li><b>Agudo:</b> Menos de 3-6 meses, inicio definido con signos objetivos.</li>
+        <li><b>Crónico:</b> Persiste más de seis meses, sin signos objetivos; requiere tratamiento combinado.</li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Características -->
+  <ion-card style="border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.15); margin-bottom:15px;">
+    <ion-card-header>
+      <ion-card-title>Características del dolor</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ul>
+        <li><ion-icon name="heart-outline"></ion-icon> <b>Visceral:</b> constante, sordo, mal localizado.</li>
+        <li><ion-icon name="bandage-outline"></ion-icon> <b>Somático:</b> constante, intenso, localizado, punzante.</li>
+        <li><ion-icon name="flash-outline"></ion-icon> <b>Neuropático:</b> descarga eléctrica, quemante, hormigueo.</li>
+        <li><ion-icon name="walk-outline"></ion-icon> <b>Incidental:</b> aparece con el movimiento.</li>
+        <li><ion-icon name="help-outline"></ion-icon> <b>Impredecible:</b> sin causa aparente, corta duración.</li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Importancia del control del dolor -->
+  <ion-card style="border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.15); margin-bottom:15px;">
+    <ion-card-header>
+      <ion-card-title>Importancia del control del dolor</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ul>
+        <li>No se debe aceptar el dolor como inevitable. Existen múltiples tratamientos que ayudan a aliviarlo. Consultar siempre con el médico.</li>
+        <li>El dolor afecta funciones corporales, sueño, apetito, ejercicio y relaciones sociales, disminuyendo la calidad de vida.</li>
+        <li>La depresión y la ansiedad pueden aumentar la percepción del dolor.</li>
+      </ul>
+      <p>Las Unidades del Dolor y los Servicios de Oncología disponen de medios para aliviar el dolor.</p>
+      <ion-img src="assets/imagenes/control-dolor.png" style="margin:10px 0;"></ion-img>
+    </ion-card-content>
+  </ion-card>
+
+  <p style="font-size: 0.8em; color: gray; text-align: center; margin-top: 20px;">
+    Información basada en la Sociedad Española de Oncología Médica (SEOM)
+  </p>
+
+</ion-content>

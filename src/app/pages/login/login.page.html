@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-img src="assets/imagenes/login.svg" style="padding: 5px;"></ion-img>
+
+  <ion-item>
+    <ion-label >Usuario</ion-label>
+    <ion-input [(ngModel)]="formlogin.user" placeholder="Pulsa aquí" style="padding: 10px;"></ion-input>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-label >Contraseña</ion-label>
+    <ion-input [(ngModel)]="formlogin.password" placeholder="Pulsa aquí" type="password"></ion-input>
+  </ion-item>
+
+  
+  <ion-button (click)="iniciarSesion()" expand="block" style="padding: 10px;">Iniciar Sesión</ion-button>
+
+</ion-content>

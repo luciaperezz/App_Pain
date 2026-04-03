@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Menu Principal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" style="padding: 10px;">
+
+  <!-- Bienvenida y fecha -->
+  <ion-card style="border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+    <ion-card-header>
+      <ion-card-title style="font-size: 1.5em;">Hola {{mensaje}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p style="margin-bottom: 5px;">Fecha de hoy: <b>{{fechaActual}}</b></p>
+      <p>
+        Último registro del dolor: 
+        <span [ngStyle]="{'color': nivelDolorColor(ultimoDolor), 'font-weight':'bold', 'font-size':'1.2em'}">
+          {{ultimoDolor}} / 10
+        </span>
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Grid de botones principales -->
+  <ion-grid style="margin-top: 20px;">
+    <ion-row style="margin-bottom: 10px;">
+      <ion-col size="6">
+        <ion-button expand="block" color="primary" [routerLink]="['/perfil']" [queryParams]="{ userNombre: mensaje }">
+          <ion-icon name="person-outline" slot="start"></ion-icon>
+          Perfil
+        </ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button expand="block" color="medium" [routerLink]="['/info']">
+          <ion-icon name="information-circle-outline" slot="start"></ion-icon>
+          Información
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <ion-button expand="block" color="success" [routerLink]="['/diario']">
+          <ion-icon name="add-outline" slot="start"></ion-icon>
+          Diario del dolor
+        </ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button expand="block" color="danger" [routerLink]="['/login']">
+          <ion-icon name="log-out-outline" slot="start"></ion-icon>
+          Cerrar sesión
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

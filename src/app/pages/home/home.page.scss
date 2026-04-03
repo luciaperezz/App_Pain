@@ -1,0 +1,35 @@
+.button-row {
+    display: flex;
+    gap: 5px; /* Espacio entre los botones */
+    padding: 10px; /* Margen alrededor del contenedor */
+    padding-bottom: 0px;
+  }
+  
+  .boton-perfil, .boton-info {
+    flex: 1;
+    height: 100px; /* Altura de los botones superiores */
+    --background: #99f5bb; /* Color personalizado para los botones superiores */
+    --color: #1e3a4c; /* Color del texto e íconos */
+    border-radius: 12px; /* Bordes redondeados */
+    font-weight: bold;
+  }
+  
+  .boton-info {
+    --background: #86e4ee;
+  }
+  
+  .boton-diario {
+    margin: 10px;
+    height: 120px; /* Altura del botón inferior */
+    --background: #72d4f5;
+    --color: #1e3a4c;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+
+  .boton-cerrar{
+    border-radius: 12px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  

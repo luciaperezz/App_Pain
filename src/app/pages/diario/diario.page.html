@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Diario del dolor</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home" text="Volver"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content style="padding: 15px;">
+
+  <div style="text-align: center; margin-bottom: 20px;">
+    <h2><b>Registro de dolor diario</b></h2>
+    <p><i>Introduce el nivel de dolor según la escala EVA y la medicación tomada.</i></p>
+  </div>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Escala EVA</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+
+      <ion-item lines="none">
+        <ion-label>Nivel de dolor</ion-label>
+      </ion-item>
+
+      <ion-item lines="none" class="slider-container">
+        <ion-range min="0" max="10" step="1" pin="true" snaps="true" [(ngModel)]="nivelDolor" color="{{nivelDolorColor(nivelDolor)}}">
+          <ion-icon slot="start" name="happy-outline" [style.color]="nivelDolor <= 3 ? 'green' : 'gray'"></ion-icon>
+          <ion-icon slot="end" name="sad-outline" [style.color]="nivelDolor >= 8 ? 'red' : 'gray'"></ion-icon>
+        </ion-range>
+      </ion-item>
+
+      <div style="text-align:center; margin-top:10px; font-weight:bold; color: {{nivelDolorColor(nivelDolor)}}">
+        Nivel de dolor: {{nivelDolor}}
+      </div>
+
+      <!-- Medicación de rescate -->
+      <ion-item>
+        <ion-label position="stacked">Medicación de rescate</ion-label>
+        <ion-input [(ngModel)]="medicacion" placeholder="Escribe la medicación tomada"></ion-input>
+      </ion-item>
+
+      <ion-button expand="full" color="primary" (click)="guardarEntrada()">
+        Guardar entrada
+      </ion-button>
+
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
