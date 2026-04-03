@@ -28,19 +28,19 @@ Pain Diary App is designed to provide a simple and structured way for users to m
 
 ## Screenshots
 
-![Login Screen](assets/screenshots/login.png)
+![Login Screen](src/assets/screenshots/login.png)
 *Login screen for personalized access.*
 
-![Home Dashboard](assets/screenshots/home.png)
+![Home Dashboard](src/assets/screenshots/home.png)
 *Main dashboard with current date and latest pain entry.*
 
-![Pain Diary](assets/screenshots/diary.png)
+![Pain Diary](src/assets/screenshots/diary.png)
 *Diary view to register and review pain records.*
 
-![Profile](assets/screenshots/profile.png)
+![Profile](src/assets/screenshots/profile.png)
 *Profile section with personal data and history overview.*
 
-![Medical Info](assets/screenshots/info.png)
+![Medical Info](src/assets/screenshots/info1.png)
 *Educational section with pain management information.*
 
 ## Tech Stack
