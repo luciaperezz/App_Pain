@@ -25,7 +25,7 @@
       </ion-item>
 
       <ion-item lines="none" class="slider-container">
-        <ion-range min="0" max="10" step="1" pin="true" snaps="true" [(ngModel)]="nivelDolor" color="{{nivelDolorColor(nivelDolor)}}">
+        <ion-range min="0" max="10" step="1" pin="true" snaps="true" [(ngModel)]="nivelDolor" [color]="nivelDolorColor(nivelDolor)">
           <ion-icon slot="start" name="happy-outline" [style.color]="nivelDolor <= 3 ? 'green' : 'gray'"></ion-icon>
           <ion-icon slot="end" name="sad-outline" [style.color]="nivelDolor >= 8 ? 'red' : 'gray'"></ion-icon>
         </ion-range>

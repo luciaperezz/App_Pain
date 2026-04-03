@@ -16,9 +16,9 @@ export class DiarioPage implements OnInit {
   ngOnInit() { }
 
   nivelDolorColor(dolor: number): string {
-    if(dolor <= 3) return 'green';
-    if(dolor <= 7) return 'orange';
-    return 'red';
+  if(dolor <= 3) return 'success';  // verde
+  if(dolor <= 7) return 'warning';  // naranja
+  return 'danger';                   // rojo
   }
 
   guardarEntrada() {
