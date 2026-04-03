@@ -28,21 +28,14 @@ Pain Diary App provides a simple way for users to monitor daily pain intensity, 
 
 ## Screenshots
 
-| Login | Home |
-|---|---|
-| <img src="src/assets/screenshots/login.png" width="260"/> | <img src="src/assets/screenshots/home.png" width="260"/> |
+| Login | Home | Pain Diary |
+|---|---|---|
+| <img src="src/assets/screenshots/login.png" width="260"/> | <img src="src/assets/screenshots/home.png" width="260"/> | <img src="src/assets/screenshots/diary.png" width="260"/> |
 
-| Pain Diary | Profile |
-|---|---|
-| <img src="src/assets/screenshots/diary.png" width="260"/> | <img src="src/assets/screenshots/profile.png" width="260"/> |
+| Profile | Medical information | Medical information |  Medical information |
+|---|---|---|---|
+| <img src="src/assets/screenshots/profile.png" width="260"/> | <img src="src/assets/screenshots/info1.png" width="30%" />  | <img src="src/assets/screenshots/info2.png" width="30%" /> |  <img src="src/assets/screenshots/info3.png" width="30%" /> | 
 
-<p align="center">
-  <img src="src/assets/screenshots/info1.png" width="30%" />
-  <img src="src/assets/screenshots/info2.png" width="30%" />
-  <img src="src/assets/screenshots/info3.png" width="30%" />
-</p>
-
-<p align="center"><em>Medical information section with educational pain management content.</em></p>
 
 ## Tech Stack
 
